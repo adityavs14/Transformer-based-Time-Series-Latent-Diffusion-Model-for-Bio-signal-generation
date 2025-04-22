@@ -1,4 +1,4 @@
-# CS7150 Project
+# CS7150 Project: Transformer based Time Series Latent Diffusion Model for Bio-signal generation
 
  
 - Models are separated by their individual folders of the same name
