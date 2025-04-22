@@ -3,9 +3,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 import math
 
-from PositionalEncoding import PositionalEncoding
-from Block import Block1D
-from Attention import Attention
+from .PositionalEncoding import PositionalEncoding
+from .Block import Block1D
+from .Attention import Attention
 
 
 class UNet1DAttn(nn.Module):

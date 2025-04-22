@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
 
-from Block import Block2D, Block1D
-from PositionalEncoding import PositionalEncoding
+from .Block import Block2D, Block1D
+from .PositionalEncoding import PositionalEncoding
 
 class Unet2D(nn.Module):
 
